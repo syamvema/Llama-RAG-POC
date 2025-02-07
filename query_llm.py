@@ -1,7 +1,7 @@
 import requests
 import json
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "your-key"
 GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions" 
 
 def query_llama(prompt, context):
